@@ -1,0 +1,145 @@
+﻿@model List<ENTİTY.Saat> 
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="saatler-container">
+    <div class="saatler-baslik-container">
+        <h2 class="saatler-baslik">
+            <span class="saatler-ikon">⌚</span>
+            SAATLER
+            <span class="saatler-ikon">⌚</span>
+        </h2>
+        <div class="saatler-alt-cizgi"></div>
+    </div>
+
+    <div class="saatler-grid">
+        @foreach (var saat in Model)
+        {
+            <div class="saat-kart">
+                <h3 class="saat-isim">@saat.İsim</h3>
+                <div class="saat-detay">
+                    <span class="saat-marka">🏷️ @saat.Marka</span>
+                    <span class="saat-cinsiyet">👫 @saat.Cinsiyet</span>
+                    <span class="saat-fiyat">💲 @saat.Fiyat.ToString("N2") TL</span>
+                    <span class="saat-stok">📦 Stok: @saat.Stok_Sayisi</span>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .saatler-container {
+        font-family: 'Montserrat', 'Segoe UI', sans-serif;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 30px 20px;
+    }
+
+    .saatler-baslik-container {
+        text-align: center;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .saatler-baslik {
+        display: inline-block;
+        color: #2c3e50;
+        font-size: 36px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0 20px;
+        position: relative;
+        background: white;
+        z-index: 1;
+    }
+
+    .saatler-alt-cizgi {
+        border-top: 3px solid #e74c3c;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        z-index: 0;
+    }
+
+    .saatler-ikon {
+        color: #e74c3c;
+        margin: 0 10px;
+        animation: pulse 2s infinite;
+    }
+
+    keyframes pulse {
+        0%
+
+    {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+    }
+
+    .saatler-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 25px;
+    }
+
+    .saat-kart {
+        background-color: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        padding: 25px;
+        transition: all 0.3s ease;
+        border: 1px solid #eee;
+    }
+
+        .saat-kart:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+            border-color: #e74c3c;
+        }
+
+    .saat-isim {
+        color: #2c3e50;
+        margin: 0 0 15px 0;
+        font-size: 20px;
+        font-weight: 600;
+        border-bottom: 1px dashed #eee;
+        padding-bottom: 10px;
+    }
+
+    .saat-detay {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        color: #555;
+        font-size: 15px;
+    }
+
+    .saat-marka {
+        font-weight: 600;
+        color: #3498db;
+    }
+
+    .saat-fiyat {
+        color: #e74c3c;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .saat-stok {
+        color: #27ae60;
+        font-weight: 500;
+    }
+</style>
