@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ENTİTY</id>
+    <version>1.0.0</version>
+    <authors>ENTİTY</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="8.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="8.0.13" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="8.0.13" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Melih\source\repos\ENTİTY\bin\Debug\net8.0\ENTİTY.runtimeconfig.json" target="lib\net8.0\ENTİTY.runtimeconfig.json" />
+    <file src="C:\Users\Melih\source\repos\ENTİTY\bin\Debug\net8.0\ENTİTY.dll" target="lib\net8.0\ENTİTY.dll" />
+  </files>
+</package>

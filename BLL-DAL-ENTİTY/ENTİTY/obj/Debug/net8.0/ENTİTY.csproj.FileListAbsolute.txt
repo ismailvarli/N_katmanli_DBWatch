@@ -1,0 +1,14 @@
+C:\Users\Melih\source\repos\ENTİTY\bin\Debug\net8.0\ENTİTY.deps.json
+C:\Users\Melih\source\repos\ENTİTY\bin\Debug\net8.0\ENTİTY.runtimeconfig.json
+C:\Users\Melih\source\repos\ENTİTY\bin\Debug\net8.0\ENTİTY.dll
+C:\Users\Melih\source\repos\ENTİTY\bin\Debug\net8.0\ENTİTY.pdb
+C:\Users\Melih\source\repos\ENTİTY\obj\Debug\net8.0\ENTİTY.csproj.AssemblyReference.cache
+C:\Users\Melih\source\repos\ENTİTY\obj\Debug\net8.0\ENTİTY.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Melih\source\repos\ENTİTY\obj\Debug\net8.0\ENTİTY.AssemblyInfoInputs.cache
+C:\Users\Melih\source\repos\ENTİTY\obj\Debug\net8.0\ENTİTY.AssemblyInfo.cs
+C:\Users\Melih\source\repos\ENTİTY\obj\Debug\net8.0\ENTİTY.csproj.CoreCompileInputs.cache
+C:\Users\Melih\source\repos\ENTİTY\obj\Debug\net8.0\ENTİTY.dll
+C:\Users\Melih\source\repos\ENTİTY\obj\Debug\net8.0\refint\ENTİTY.dll
+C:\Users\Melih\source\repos\ENTİTY\obj\Debug\net8.0\ENTİTY.pdb
+C:\Users\Melih\source\repos\ENTİTY\obj\Debug\net8.0\ENTİTY.genruntimeconfig.cache
+C:\Users\Melih\source\repos\ENTİTY\obj\Debug\net8.0\ref\ENTİTY.dll
